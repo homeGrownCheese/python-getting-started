@@ -1,7 +1,7 @@
 import hello.views
 from django.urls import path, include
 
-from django.contrib import admin, include
+from django.contrib import admin
 
 admin.autodiscover()
 
