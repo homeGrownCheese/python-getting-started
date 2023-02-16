@@ -1,5 +1,4 @@
 import hello.views
-import forums.views
 from django.urls import path, include
 
 from django.contrib import admin
@@ -19,5 +18,4 @@ urlpatterns = [
     path("", hello.views.index, name="index"),
     path("db/", hello.views.db, name="db"),
     path("admin/", admin.site.urls),
-    path('forums/', include(forums.urls)),
 ]
